@@ -1,0 +1,230 @@
+/* Icons*/
+
+$ico_size_sm: 20px;
+$ico_size_md: 24px;
+$ico_size_lg: 48px;
+
+.ic-sm { width: $ico_size_sm; height: $ico_size_sm; display: inline-block;}
+.ic-md { width: $ico_size_md; height: $ico_size_md; display: inline-block;}
+.ic-lg { width: $ico_size_lg; height: $ico_size_lg; display: inline-block;}
+
+.ic-edit-b              {background-image:url("#{$ico_path}/ic_edit_black.svg") !important;}
+.ic-edit-w              {background-image:url("#{$ico_path}/ic_edit_white.svg") !important;}
+
+.ic-delete-b            {background-image:url("#{$ico_path}/ic_save_black.svg") !important;}
+.ic-delete-w            {background-image:url("#{$ico_path}/ic_save_white.svg") !important;}
+
+.ic-add-b               {background-image:url("#{$ico_path}/ic_add_black.svg") !important;}
+.ic-add-w               {background-image:url("#{$ico_path}/ic_add_white.svg") !important;}
+
+.ic-remove-b            {background-image:url("#{$ico_path}/ic_remove_black.svg") !important;}
+.ic-remove-w            {background-image:url("#{$ico_path}/ic_remove_white.svg") !important;}
+
+.ic-add-line-b          {background-image:url("#{$ico_path}/ic_add_line_black.svg") !important;}
+.ic-add-line-w          {background-image:url("#{$ico_path}/ic_add_line_white.svg") !important;}
+
+.ic-remove-line-b       {background-image:url("#{$ico_path}/ic_remove_line_black.svg") !important;}
+.ic-remove-line-w       {background-image:url("#{$ico_path}/ic_remove_line_white.svg") !important;}
+
+.ic-arrow-back-b        {background-image:url("#{$ico_path}/ic_arrow_back_black.svg") !important;}
+.ic-arrow-back-w        {background-image:url("#{$ico_path}/ic_arrow_back_white.svg") !important;}
+
+.ic-arrow-forward-b     {background-image:url("#{$ico_path}/ic_arrow_forward_black.svg") !important;}
+.ic-arrow-forward-w     {background-image:url("#{$ico_path}/ic_arrow_forward_white.svg") !important;}
+
+.ic-arrow-up-b          {background-image:url("#{$ico_path}/ic_arrow_up_black.svg") !important;}
+.ic-arrow-up-w          {background-image:url("#{$ico_path}/ic_arrow_up_white.svg") !important;}
+
+.ic-arrow-down-b        {background-image:url("#{$ico_path}/ic_arrow_down_black.svg") !important;}
+.ic-arrow-down-w        {background-image:url("#{$ico_path}/ic_arrow_down_white.svg") !important;}
+
+.ic-navigate-before-b   {background-image:url("#{$ico_path}/ic_navigate_before_black.svg") !important;}
+.ic-navigate-before-w   {background-image:url("#{$ico_path}/ic_navigate_before_white.svg") !important;}
+
+.ic-navigate-next-b     {background-image:url("#{$ico_path}/ic_navigate_next_black.svg") !important;}
+.ic-navigate-next-w     {background-image:url("#{$ico_path}/ic_navigate_next_white.svg") !important;}
+
+.ic-arrow-status-down-b {background-image:url("#{$ico_path}/ic_arrow_status_down_black.svg") !important;}
+.ic-arrow-status-down-w {background-image:url("#{$ico_path}/ic_arrow_status_down_white.svg") !important;}
+
+.ic-arrow-status-up-b   {background-image:url("#{$ico_path}/ic_arrow_status_up_black.svg") !important;}
+.ic-arrow-status-up-w   {background-image:url("#{$ico_path}/ic_arrow_status_up_white.svg") !important;}
+
+.ic-undo-b              {background-image:url("#{$ico_path}/ic_undo_black.svg") !important;}
+.ic-undo-w              {background-image:url("#{$ico_path}/ic_undo_white.svg") !important;}
+
+.ic-redo-b              {background-image:url("#{$ico_path}/ic_redo_black.svg") !important;}
+.ic-redo-w              {background-image:url("#{$ico_path}/ic_redo_white.svg") !important;}
+
+.ic-close-b             {background-image:url("#{$ico_path}/ic_close_black.svg") !important;}
+.ic-close-w             {background-image:url("#{$ico_path}/ic_close_white.svg") !important;}
+
+.ic-person-b            {background-image:url("#{$ico_path}/ic_person_black.svg") !important;}
+.ic-person-w            {background-image:url("#{$ico_path}/ic_person_white.svg") !important;}
+
+.ic-person-add-b        {background-image:url("#{$ico_path}/ic_person_add_black.svg") !important;}
+.ic-person-add-w        {background-image:url("#{$ico_path}/ic_person_add_white.svg") !important;}
+
+.ic-group-b             {background-image:url("#{$ico_path}/ic_group_black.svg") !important;}
+.ic-group-w             {background-image:url("#{$ico_path}/ic_group_white.svg") !important;}
+
+.ic-group-add-b         {background-image:url("#{$ico_path}/ic_group_add_black.svg") !important;}
+.ic-group-add-w         {background-image:url("#{$ico_path}/ic_group_add_white.svg") !important;}
+
+.ic-notifications-b     {background-image:url("#{$ico_path}/ic_notifications_black.svg") !important;}
+.ic-notifications-w     {background-image:url("#{$ico_path}/ic_notifications_white.svg") !important;}
+
+.ic-notifications-off-b {background-image:url("#{$ico_path}/ic_notifications_off_black.svg") !important;}
+.ic-notifications-off-w {background-image:url("#{$ico_path}/ic_notifications_white.svg") !important;}
+
+.ic-help-b              {background-image:url("#{$ico_path}/ic_help_black.svg") !important;}
+.ic-help-w              {background-image:url("#{$ico_path}/ic_help_white.svg") !important;}
+
+.ic-info-b              {background-image:url("#{$ico_path}/ic_info_black.svg") !important;}
+.ic-info-w              {background-image:url("#{$ico_path}/ic_info_white.svg") !important;}
+
+.ic-warning-b           {background-image:url("#{$ico_path}/ic_warning_black.svg") !important;}
+.ic-warning-w           {background-image:url("#{$ico_path}/ic_warning_white.svg") !important;}
+
+.ic-settings-b          {background-image:url("#{$ico_path}/ic_settings_black.svg") !important;}
+.ic-settings-w          {background-image:url("#{$ico_path}/ic_settings_white.svg") !important;}
+
+.ic-power-b             {background-image:url("#{$ico_path}/ic_power_settings_black.svg") !important;}
+.ic-power-w             {background-image:url("#{$ico_path}/ic_power_settings_white.svg") !important;}
+
+.ic-time-b              {background-image:url("#{$ico_path}/ic_time_black.svg") !important;}
+.ic-time-w              {background-image:url("#{$ico_path}/ic_time_white.svg") !important;}
+
+.ic-date-b              {background-image:url("#{$ico_path}/ic_date_black.svg") !important;}
+.ic-date-w              {background-image:url("#{$ico_path}/ic_date_white.svg") !important;}
+
+.ic-zoom-in-b           {background-image:url("#{$ico_path}/ic_zoom_in_black.svg") !important;}
+.ic-zoom-in-w           {background-image:url("#{$ico_path}/ic_zoom_in_white.svg") !important;}
+
+.ic-zoom-out-b          {background-image:url("#{$ico_path}/ic_zoom_out_black.svg") !important;}
+.ic-zoom-out-w          {background-image:url("#{$ico_path}/ic_zoom_out_white.svg") !important;}
+
+.ic-sound-b             {background-image:url("#{$ico_path}/ic_sound_black.svg") !important;}
+.ic-sound-w             {background-image:url("#{$ico_path}/ic_sound_white.svg") !important;}
+
+.ic-sound-off-b         {background-image:url("#{$ico_path}/ic_sound_off_black.svg") !important;}
+.ic-sound-off-w         {background-image:url("#{$ico_path}/ic_sound_off_white.svg") !important;}
+
+.ic-chat-b              {background-image:url("#{$ico_path}/ic_chat_black.svg") !important;}
+.ic-chat-w              {background-image:url("#{$ico_path}/ic_chat_white.svg") !important;}
+
+.ic-email-b             {background-image:url("#{$ico_path}/ic_email_black.svg") !important;}
+.ic-email-w             {background-image:url("#{$ico_path}/ic_email_white.svg") !important;}
+
+.ic-copy-b              {background-image:url("#{$ico_path}/ic_content_copy_black.svg") !important;}
+.ic-copy-w              {background-image:url("#{$ico_path}/ic_content_copy_white.svg") !important;}
+
+.ic-attach-file-b       {background-image:url("#{$ico_path}/ic_attach_file_black.svg") !important;}
+.ic-attach-file-w       {background-image:url("#{$ico_path}/ic_attach_file_white.svg") !important;}
+
+.ic-upload-b            {background-image:url("#{$ico_path}/ic_upload_black.svg") !important;}
+.ic-upload-w            {background-image:url("#{$ico_path}/ic_upload_white.svg") !important;}
+
+.ic-download-b          {background-image:url("#{$ico_path}/ic_download_black.svg") !important;}
+.ic-download-w          {background-image:url("#{$ico_path}/ic_arrow_status_down_white.svg") !important;}
+
+.ic-cloud-b             {background-image:url("#{$ico_path}/ic_cloud_black.svg") !important;}
+.ic-cloud-w             {background-image:url("#{$ico_path}/ic_cloud_white.svg") !important;}
+
+.ic-folder-b            {background-image:url("#{$ico_path}/ic_folder_black.svg") !important;}
+.ic-folder-w            {background-image:url("#{$ico_path}/ic_folder_white.svg") !important;}
+
+.ic-create-folder-b     {background-image:url("#{$ico_path}/ic_create_new_folder_black.svg") !important;}
+.ic-create-folder-w     {background-image:url("#{$ico_path}/ic_create_new_folder_white.svg") !important;}
+
+.ic-document-b          {background-image:url("#{$ico_path}/ic_document_black.svg") !important;}
+.ic-document-w          {background-image:url("#{$ico_path}/ic_document_white.svg") !important;}
+
+.ic-list-b              {background-image:url("#{$ico_path}/ic_list_black.svg") !important;}
+.ic-list-w              {background-image:url("#{$ico_path}/ic_list_white.svg") !important;}
+
+.ic-add-photo-b         {background-image:url("#{$ico_path}/ic_add_a_photo_black.svg") !important;}
+.ic-add-photo-w         {background-image:url("#{$ico_path}/ic_add_a_photo_white.svg") !important;}
+
+.ic-image-b             {background-image:url("#{$ico_path}/ic_image_black.svg") !important;}
+.ic-image-w             {background-image:url("#{$ico_path}/ic_image_white.svg") !important;}
+
+.ic-print-b             {background-image:url("#{$ico_path}/ic_print_black.svg") !important;}
+.ic-print-w             {background-image:url("#{$ico_path}/ic_print_white.svg") !important;}
+
+.ic-menu-b              {background-image:url("#{$ico_path}/ic_menu_black.svg") !important;}
+.ic-menu-w              {background-image:url("#{$ico_path}/ic_menu_white.svg") !important;}
+
+.ic-more-vert-b         {background-image:url("#{$ico_path}/ic_more_vert_black.svg") !important;}
+.ic-more-vert-w         {background-image:url("#{$ico_path}/ic_more_vert_white.svg") !important;}
+
+.ic-search-b            {background-image:url("#{$ico_path}/ic_search_black.svg") !important;}
+.ic-search-w            {background-image:url("#{$ico_path}/ic_search_white.svg") !important;}
+
+.ic-find-document-b     {background-image:url("#{$ico_path}/ic_find_in_document_black.svg") !important;}
+.ic-find-document-w     {background-image:url("#{$ico_path}/ic_find_in_document_white.svg") !important;}
+
+.ic-apps-b              {background-image:url("#{$ico_path}/ic_apps_black.svg") !important;}
+.ic-apps-w              {background-image:url("#{$ico_path}/ic_apps_white.svg") !important;}
+
+.ic-check-b             {background-image:url("#{$ico_path}/ic_check_black.svg") !important;}
+.ic-check-w             {background-image:url("#{$ico_path}/ic_check_white.svg") !important;}
+
+.ic-drag-handle-b       {background-image:url("#{$ico_path}/ic_drag_handle_black.svg") !important;}
+.ic-drag-handle-w       {background-image:url("#{$ico_path}/ic_drag_handle_white.svg") !important;}
+
+.ic-location-b          {background-image:url("#{$ico_path}/ic_location_black.svg") !important;}
+.ic-location-w          {background-image:url("#{$ico_path}/ic_location_white.svg") !important;}
+
+.ic-history-b           {background-image:url("#{$ico_path}/ic_history_black.svg") !important;}
+.ic-history-w           {background-image:url("#{$ico_path}/ic_history_white.svg") !important;}
+
+.ic-shopping-b          {background-image:url("#{$ico_path}/ic_shopping_cart_black.svg") !important;}
+.ic-shopping-w          {background-image:url("#{$ico_path}/ic_shopping_cart_white.svg") !important;}
+
+
+.ic-sm, .ic-md, .ic-lg {
+  background-size: 100%;
+  background-position: center;
+}
+
+i[class*="ic-"] {opacity: .7;}
+
+//ico btn
+.btn-ic           {
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0.375rem 0;
+  border: none !important;
+  line-height: 0 !important;
+}
+
+.btn-ic i[class*="ic-"] {
+  height: $ico_size_md;
+  width:$ico_size_md;
+  display: inline-block;
+  background-size: 100%;
+  transition:opacity .3s ease;
+  -webkit-transition:opacity .3s ease;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn-ic i[class*="ic-"]:hover {opacity: .9 !important;}
+.btn-ic i[class*="ic-"]:disabled {opacity: .3;}
+
+.btn-sm.btn-ic {padding: 0.25rem 0;}
+
+.btn-sm i[class*="ic-"] {
+  height: $ico_size_sm;
+  width:$ico_size_sm;
+}
+
+.btn-lg i[class*="ic-"] {
+  height: $ico_size_lg;
+  width:$ico_size_lg;
+}
+
+.btn-lg.btn-ic {padding: 0 0;}
+
+

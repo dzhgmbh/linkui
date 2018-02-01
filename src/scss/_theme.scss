@@ -1,0 +1,27 @@
+/*
+   Custom template
+   --------------------------------------------------
+*/
+
+/* Individuelle Primärfarbe */
+$base-color: #1e87f0;
+
+
+/* Begrenzung der Mindestbreite des Seiteninhalts */
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+
+/* Pfad zum link ui icon set */
+$ico_path: '../../icons';
+
+/* Eigene Icons einbinden*/
+//.ic-NAME-b {background-image:url("#{$ico_path}/ic_NAME_black.svg") !important;}
+
+
+
+

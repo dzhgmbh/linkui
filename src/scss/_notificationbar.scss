@@ -1,0 +1,84 @@
+/*--------
+custom css mockup optadata one notificationbar
+----------*/
+
+.notification {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  height: calc(100vh - 53px);
+  transition:all .3s ease;
+  -webkit-transition:all .3s ease;
+  z-index: 1000;
+}
+
+.tab {
+  position: relative;
+  width: 53px;
+  height: 100%;
+  background: #1c2336;
+  z-index: 900;
+  float: left;
+}
+
+.tab button {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  padding-top: 8px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.tab button .badge {
+  position: absolute;
+  top: 10px;
+  left: 27px;
+  z-index: 5;
+}
+
+.tab button img, .tab button svg {opacity: .5;}
+.tab button:hover img, .tab button:hover svg {opacity: .8;}
+.tab button.active img, .tab button.active svg {opacity: 1;}
+
+.tab button.active {background: #2c344a;}
+
+.tabcontent {
+  width: 263px;
+  font-size: 12px;
+  display: none;
+}
+
+.tabcontent h6 {color: #edf0f5;}
+
+.notification-content {
+  height: calc(100vh - 53px);
+  position: fixed;
+  z-index: 890;
+  top: 53px;
+  left: -263px;
+  background: #2c344a;
+  color: #80889c;
+  transition:all .3s ease;
+  -webkit-transition:all .3s ease;
+}
+
+.notification-content.show {
+  width: 263px;
+  left: 53px;
+}
+
+button.close-panel {
+  position: absolute;
+  top: 19px;
+  right: 15px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

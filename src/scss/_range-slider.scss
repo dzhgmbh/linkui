@@ -1,0 +1,93 @@
+.range-slider-container {
+  width: 100%;
+}
+
+input.range-slider[type=range] {
+  /*removes default webkit styles*/
+  -webkit-appearance: none;
+  appearance: none;
+
+  /*fix for FF unable to apply focus style bug */
+  border: 1px solid transparent;
+
+  /*required for proper track sizing in FF*/
+  width: 100%;
+}
+input.range-slider[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  background: $gray-300;
+  border: none;
+}
+input.range-slider[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: $base-color;
+  margin-top: -7px;
+}
+input.range-slider[type=range]:focus {
+  outline: none;
+}
+input.range-slider[type=range]:focus::-webkit-slider-runnable-track {
+  background: $gray-300;
+}
+
+input.range-slider[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  background: $gray-300;
+  border: none;
+  border-radius: 0;
+}
+input.range-slider[type=range]::-moz-range-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: $base-color;
+}
+
+/*hide the outline behind the border*/
+input.range-slider[type=range]:-moz-focusring{
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+}
+
+input.range-slider[type=range]::-ms-track {
+  width: 100%;
+  height: 2px;
+
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent;
+
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 6px 0;
+
+  /*remove default tick marks*/
+  color: transparent;
+}
+input.range-slider[type=range]::-ms-fill-lower {
+  background: $gray-300;
+  border-radius: 10px;
+}
+input.range-slider[type=range]::-ms-fill-upper {
+  background: $gray-300;
+  border-radius: 10px;
+}
+input.range-slider[type=range]::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: $base-color;
+}
+input.range-slider[type=range]:focus::-ms-fill-lower {
+  background: $gray-300;
+}
+input.range-slider[type=range]:focus::-ms-fill-upper {
+  background: $gray-300;
+}
