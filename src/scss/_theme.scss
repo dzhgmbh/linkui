@@ -4,7 +4,7 @@
 */
 
 /* Individuelle Primärfarbe */
-$base-color: #1e87f0;
+$base-color: #1e87f0 !default;
 
 
 /* Begrenzung der Mindestbreite des Seiteninhalts */
@@ -13,11 +13,11 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px
-);
+) !default;
 
 
 /* Pfad zum link ui icon set */
-$ico_path: '../../icons';
+$ico_path: './icons' !default;
 
 /* Eigene Icons einbinden*/
 //.ic-NAME-b {background-image:url("#{$ico_path}/ic_NAME_black.svg") !important;}
