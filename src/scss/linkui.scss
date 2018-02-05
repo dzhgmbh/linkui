@@ -1,5 +1,5 @@
 @import "_theme";/*all user*/
-@import "_custom";/*only linkui builder*/
+@import "_custom";
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
@@ -31,14 +31,16 @@
 @import "../../node_modules/bootstrap/scss/close";
 @import "../../node_modules/bootstrap/scss/modal";
 @import "../../node_modules/bootstrap/scss/tooltip";
-@import "../../node_modules/bootstrap/scss/popover";
+//@import "../../node_modules/bootstrap/scss/popover";
 @import "../../node_modules/bootstrap/scss/carousel";
 @import "../../node_modules/bootstrap/scss/utilities";
-@import "_custom_adds.scss";
+@import "_sidebar.scss";
+//@import "_notificationbar";
 @import "_navbar";
-@import "_notificationbar";
+@import "_tabs";
 @import "_loader";
 @import "_toogle-switch";
 @import "_range-slider";
 @import "_icons";
+@import "_toastr";
 

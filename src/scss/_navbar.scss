@@ -19,20 +19,20 @@
   display: none;
 }
 
+.user-avatar {
+  display: inline-block;
+}
+
 .user-avatar img {
   height: 40px;
   width: 40px;
 }
 
 .nav-item-ico {
-  height: 40px;
-  padding: 8px 4px;
+  padding: 7px 4px;
 }
 
-.nav-item-ico svg {
-  height: 24px;
-  width: 24px; /*ie11 fix*/
-}
+/*sSearch Overlay*/
 
 .primary-search {
   width: calc(100% - 315px);
@@ -199,7 +199,7 @@
     margin-right: 1rem;
   }
 
-  /*overwirte BS4 responsive styles only for usermenu*/
+  /*overwirte BS4 responsive styles only usermenu*/
   .navbar-nav.user-menu {flex-direction: row;}
 
   .navbar-nav.user-menu .dropdown-menu {

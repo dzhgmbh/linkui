@@ -1,12 +1,12 @@
 /* Icons*/
-
 $ico_size_sm: 20px;
 $ico_size_md: 24px;
 $ico_size_lg: 48px;
 
-.ic-sm { width: $ico_size_sm; height: $ico_size_sm; display: inline-block;}
-.ic-md { width: $ico_size_md; height: $ico_size_md; display: inline-block;}
-.ic-lg { width: $ico_size_lg; height: $ico_size_lg; display: inline-block;}
+.ic-sm, .ic-md, .ic-lg { display: inline-block;}
+.ic-sm { width: $ico_size_sm; height: $ico_size_sm;}
+.ic-md { width: $ico_size_md; height: $ico_size_md;}
+.ic-lg { width: $ico_size_lg; height: $ico_size_lg;}
 
 .ic-edit-b              {background-image:url("#{$ico_path}/ic_edit_black.svg") !important;}
 .ic-edit-w              {background-image:url("#{$ico_path}/ic_edit_white.svg") !important;}

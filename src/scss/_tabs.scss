@@ -1,0 +1,19 @@
+//Horizontal Tab Nav
+
+.tab-nav {
+  border-bottom: 1px solid $gray-200;
+}
+
+.tab-nav .nav-link.active {
+  border-bottom: 2px solid $base-color;
+  color: $gray-800;
+}
+
+.tab-nav .nav-link {
+  color: $gray-500;
+  font-size: 1rem;
+}
+
+.tab-nav .nav-link:hover {
+  color: $gray-800;
+}
