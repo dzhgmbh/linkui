@@ -212,7 +212,7 @@ $input-border-color:  $gray-300;
 .is-valid-feedback {color: $green;}
 
 .input-group-addon-ico {
-  padding:0 .7rem;
+  padding:0 .7rem !important;
   background: $white;
 }
 
