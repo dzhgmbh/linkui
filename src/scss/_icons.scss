@@ -11,8 +11,11 @@ $ico_size_lg: 48px;
 .ic-edit-b              {background-image:url("#{$ico_path}/ic_edit_black.svg") !important;}
 .ic-edit-w              {background-image:url("#{$ico_path}/ic_edit_white.svg") !important;}
 
-.ic-delete-b            {background-image:url("#{$ico_path}/ic_save_black.svg") !important;}
-.ic-delete-w            {background-image:url("#{$ico_path}/ic_save_white.svg") !important;}
+.ic-delete-b            {background-image:url("#{$ico_path}/ic_delete_black.svg") !important;}
+.ic-delete-w            {background-image:url("#{$ico_path}/ic_delete_white.svg") !important;}
+
+.ic-save-b            {background-image:url("#{$ico_path}/ic_save_black.svg") !important;}
+.ic-save-w            {background-image:url("#{$ico_path}/ic_save_white.svg") !important;}
 
 .ic-add-b               {background-image:url("#{$ico_path}/ic_add_black.svg") !important;}
 .ic-add-w               {background-image:url("#{$ico_path}/ic_add_white.svg") !important;}
