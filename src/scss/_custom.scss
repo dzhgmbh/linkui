@@ -91,7 +91,13 @@ $display4-size: 2rem;
 $lead-font-size: 1.25rem;
 
 //Hero Display
-.hero-display .row {height: 150px}
+.hero-display .row {height: 150px;}
+.hero-display [class^="display-"] {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
 
 
 // Border
