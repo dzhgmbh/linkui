@@ -80,20 +80,26 @@ a {
   background: #e9ecef;
   font-weight: 500; }
 
-.table-striped.link-table tbody tr:nth-of-type(1n+2) {
-  background: rgba(0, 0, 0, 0.04); }
-
-.table-striped.link-table tbody tr:nth-of-type(2n+1) {
-  background: #fff; }
-
-.table-striped.link-table tbody tr:hover {
-  background: rgba(0, 0, 0, 0.08); }
-
-table th, .table td {
-  border-top: 1px solid #e9ecef !important; }
-
 tr.align-middle td {
   vertical-align: middle; }
+
+tr[class^="bg-"] {
+  color: rgba(255, 255, 255, 0.95); }
+
+table.table-hover {
+  cursor: pointer; }
+
+table.table-striped.link-table tbody tr:nth-of-type(1n+2), table.table-striped tbody tr:nth-of-type(1n+2) {
+  background: #f8f9fa; }
+
+table.table-hover.link-table tbody tr:nth-of-type(1n+2):hover, table.table-hover tbody tr:nth-of-type(1n+2):hover {
+  background: #dee1e4 !important; }
+
+table.table-striped.link-table tbody tr:nth-of-type(2n+1), table.table-striped tbody tr:nth-of-type(2n+1) {
+  background: transparent; }
+
+table.table-hover.link-table tbody tr:nth-of-type(2n+1):hover, table.table-hover tbody tr:nth-of-type(2n+1):hover {
+  background: #dee1e4 !important; }
 
 .pagination .disabled {
   opacity: .5; }
@@ -1520,12 +1526,12 @@ pre {
   .table td {
     padding: 1rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6; }
+    border-top: 1px solid #e9ecef; }
   .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6; }
+    border-bottom: 2px solid #e9ecef; }
   .table tbody + tbody {
-    border-top: 2px solid #dee2e6; }
+    border-top: 2px solid #e9ecef; }
   .table .table {
     background-color: #f8f9fa; }
 
@@ -1534,10 +1540,10 @@ pre {
   padding: 0.5rem 1rem; }
 
 .table-bordered {
-  border: 1px solid #dee2e6; }
+  border: 1px solid #e9ecef; }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #dee2e6; }
+    border: 1px solid #e9ecef; }
   .table-bordered thead th,
   .table-bordered thead td {
     border-bottom-width: 2px; }
@@ -1546,7 +1552,7 @@ pre {
   background-color: rgba(0, 0, 0, 0.05); }
 
 .table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #dee1e4; }
 
 .table-primary,
 .table-primary > th,
@@ -1639,13 +1645,13 @@ pre {
 .table-active,
 .table-active > th,
 .table-active > td {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #dee1e4; }
 
 .table-hover .table-active:hover {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #d0d4d9; }
   .table-hover .table-active:hover > td,
   .table-hover .table-active:hover > th {
-    background-color: rgba(0, 0, 0, 0.075); }
+    background-color: #d0d4d9; }
 
 .table .thead-dark th {
   color: #f8f9fa;
@@ -1654,7 +1660,7 @@ pre {
 .table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
-  border-color: #dee2e6; }
+  border-color: #e9ecef; }
 
 .table-dark {
   color: #f8f9fa;
@@ -7255,22 +7261,9 @@ input.range-slider[type=range]:focus::-ms-fill-lower {
 input.range-slider[type=range]:focus::-ms-fill-upper {
   background: #dee2e6; }
 
-/* Icons*/
-.ic-sm, .ic-md, .ic-lg {
-  display: inline-block; }
-
-.ic-sm {
-  width: 20px;
-  height: 20px; }
-
-.ic-md {
-  width: 24px;
-  height: 24px; }
-
-.ic-lg {
-  width: 48px;
-  height: 48px; }
-
+/* Size*/
+/* Status opacity */
+/*icons*/
 .ic-edit-b {
   background-image: url("./icons/ic_edit_black.svg") !important; }
 
@@ -7638,11 +7631,32 @@ input.range-slider[type=range]:focus::-ms-fill-upper {
   background-image: url("./icons/ic_visibility_off_white.svg") !important; }
 
 .ic-sm, .ic-md, .ic-lg {
+  display: inline-block; }
+
+.ic-sm {
+  width: 20px;
+  height: 20px; }
+
+.ic-md {
+  width: 24px;
+  height: 24px; }
+
+.ic-lg {
+  width: 48px;
+  height: 48px; }
+
+.ic-sm, .ic-md, .ic-lg {
   background-size: 100%;
   background-position: center; }
 
 i[class*="ic-"] {
-  opacity: .7; }
+  opacity: 0.7; }
+
+i.ic-active {
+  opacity: 0.9 !important; }
+
+i.ic-disabled {
+  opacity: 0.3 !important; }
 
 .btn-ic {
   background-position: center center;
@@ -7662,10 +7676,10 @@ i[class*="ic-"] {
   padding: 0 !important; }
 
 .btn-ic i[class*="ic-"]:hover {
-  opacity: .9 !important; }
+  opacity: 0.9 !important; }
 
 .btn-ic i[class*="ic-"]:disabled {
-  opacity: .3; }
+  opacity: 0.3; }
 
 .btn-sm.btn-ic, .btn-group-sm > .btn-ic.btn {
   padding: 0.25rem 0; }

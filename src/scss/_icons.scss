@@ -1,13 +1,15 @@
-/* Icons*/
+/* Size*/
 $ico_size_sm: 20px;
 $ico_size_md: 24px;
 $ico_size_lg: 48px;
 
-.ic-sm, .ic-md, .ic-lg { display: inline-block;}
-.ic-sm { width: $ico_size_sm; height: $ico_size_sm;}
-.ic-md { width: $ico_size_md; height: $ico_size_md;}
-.ic-lg { width: $ico_size_lg; height: $ico_size_lg;}
+/* Status opacity */
+$ico_default: .7;
+$ico_active: .9;
+$ico_disabled: .3;
 
+
+/*icons*/
 .ic-edit-b              {background-image:url("#{$ico_path}/ic_edit_black.svg") !important;}
 .ic-edit-w              {background-image:url("#{$ico_path}/ic_edit_white.svg") !important;}
 
@@ -192,15 +194,22 @@ $ico_size_lg: 48px;
 .ic-visibility-off-w    {background-image:url("#{$ico_path}/ic_visibility_off_white.svg") !important;}
 
 
+.ic-sm, .ic-md, .ic-lg { display: inline-block;}
+.ic-sm { width: $ico_size_sm; height: $ico_size_sm;}
+.ic-md { width: $ico_size_md; height: $ico_size_md;}
+.ic-lg { width: $ico_size_lg; height: $ico_size_lg;}
+
 .ic-sm, .ic-md, .ic-lg {
   background-size: 100%;
   background-position: center;
 }
 
-i[class*="ic-"] {opacity: .7;}
+i[class*="ic-"] {opacity: $ico_default;}
+i.ic-active {opacity: $ico_active !important;}
+i.ic-disabled {opacity: $ico_disabled !important;}
 
 //ico btn
-.btn-ic           {
+.btn-ic{
   background-position: center center;
   background-repeat: no-repeat;
   padding: 0.375rem 0;
@@ -219,8 +228,8 @@ i[class*="ic-"] {opacity: .7;}
   padding: 0 !important;
 }
 
-.btn-ic i[class*="ic-"]:hover {opacity: .9 !important;}
-.btn-ic i[class*="ic-"]:disabled {opacity: .3;}
+.btn-ic i[class*="ic-"]:hover {opacity: $ico_active !important;}
+.btn-ic i[class*="ic-"]:disabled {opacity: $ico_disabled;}
 
 .btn-sm.btn-ic {padding: 0.25rem 0;}
 

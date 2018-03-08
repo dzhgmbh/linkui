@@ -136,13 +136,21 @@ $input-btn-line-height-lg:  1.5;
   font-weight: 500;
 }
 
-.table-striped.link-table tbody tr:nth-of-type(1n+2) {background: rgba(0, 0, 0, 0.04);}
-.table-striped.link-table tbody tr:nth-of-type(2n+1) {background: #fff;}
-.table-striped.link-table tbody tr:hover {background: rgba(0, 0, 0, 0.08);}
-table th, .table td {border-top: 1px solid $gray-200 !important;}
 tr.align-middle td { vertical-align: middle;}
+
 $table-cell-padding: 1rem;
 $table-cell-padding-sm: .5rem 1rem;
+$table-hover-bg:              rgb(222, 225, 228);
+$table-active-bg:             $table-hover-bg;
+$table-border-color:          $gray-200;
+
+tr[class^="bg-"] { color: rgba($white, 0.95);}
+table.table-hover { cursor: pointer}
+table.table-striped.link-table tbody tr:nth-of-type(1n+2), table.table-striped tbody tr:nth-of-type(1n+2) {background: $gray-100;}
+table.table-hover.link-table tbody tr:nth-of-type(1n+2):hover, table.table-hover tbody tr:nth-of-type(1n+2):hover {background: $table-hover-bg !important;}
+table.table-striped.link-table tbody tr:nth-of-type(2n+1), table.table-striped tbody tr:nth-of-type(2n+1) {background: transparent;}
+table.table-hover.link-table tbody tr:nth-of-type(2n+1):hover, table.table-hover tbody tr:nth-of-type(2n+1):hover {background: $table-hover-bg !important;}
+
 
 //pagination
 $pagination-color:        $gray-700;
