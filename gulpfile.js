@@ -37,4 +37,4 @@ gulp.task('css', function() {
 
 gulp.task('build', ['css', 'js', 'icons']);
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['build', 'js', 'watch']);
