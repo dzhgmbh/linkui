@@ -127,6 +127,10 @@ $input-btn-line-height-lg:  1.5;
 .btn.btn-outline-warning:hover {color: $white;}
 .btn-link:hover { box-shadow: none;}
 
+//btn badges/pills fix
+.btn {max-height: 36px;}
+.btn-lg {max-height: 48px;}
+
 //table
 .table th, .table td {vertical-align: middle;}
 
@@ -224,6 +228,8 @@ $tooltip-opacity:.95;
 .badge { line-height: 1 !important}
 .badge, .badge-warning { color: $white !important}
 .badge-light, .badge-secondary {color: $gray-800 !important;}
+$badge-font-size:                   90% !default;
+$badge-font-weight:                 400;
 
 //Forms
 $input-border-color:  $gray-300;
@@ -369,4 +375,21 @@ $carousel-control-icon-width:       54px;
 }
 
 
+.avatartypo {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  line-height: 2rem !important;
+  text-transform: uppercase;
 
+}
+
+.avatartypo span {
+  opacity: .85;
+  display: block;
+}
