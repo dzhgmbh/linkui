@@ -303,21 +303,47 @@ select {
     top: 56px;
     left: 0;
     background: rgba(0, 0, 0, 0.5); } }
-.avatartypo {
-  width: 40px;
-  height: 40px;
+.avatar-md {
+  width: 36px;
+  height: 36px;
+  font-size: 1rem; }
+
+.avatar-lg {
+  width: 48px;
+  height: 48px;
+  font-size: 1.3rem; }
+
+.avatar-xl {
+  width: 64px;
+  height: 64px;
+  font-size: 1.8rem; }
+
+.avatar {
   color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
-  line-height: 2rem !important;
-  text-transform: uppercase; }
+  overflow: hidden;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease; }
 
-.avatartypo span {
+button.avatar, a.button.typo-avatar {
+  cursor: pointer;
+  border: none;
+  outline: none !important;
+  padding: 0; }
+
+button.avatar:hover, a.button.avatar:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17); }
+
+.avatar .initials {
   opacity: .85;
-  display: block; }
+  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 3px;
+  /*line height fix*/ }
 
 @media print {
   *,
@@ -6910,6 +6936,15 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar .dropdown-toggle::after {
   display: none; }
 
+.navbar .avatar {
+  width: 40px;
+  height: 40px; }
+
+.navbar .avatar .initials {
+  font-size: 1.1rem;
+  padding-top: 1px; }
+
+/*old version of the representation of user picture*/
 .user-avatar {
   display: inline-block; }
 
@@ -6917,6 +6952,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 40px;
   width: 40px; }
 
+/**/
 .nav-item-ico {
   padding: 7px 4px; }
 
@@ -7731,6 +7767,18 @@ input.range-slider[type=range]:focus::-ms-fill-upper {
 
 .ic-visibility-off-w {
   background-image: url("./icons/ic_visibility_off_white.svg") !important; }
+
+.ic-star-b {
+  background-image: url("./icons/ic_star_black.svg") !important; }
+
+.ic-star-w {
+  background-image: url("./icons/ic_star_white.svg") !important; }
+
+.ic-star-border-b {
+  background-image: url("./icons/ic_star_border_black.svg") !important; }
+
+.ic-star-border-w {
+  background-image: url("./icons/ic_star_border_white.svg") !important; }
 
 .ic-sm, .ic-md, .ic-lg {
   display: inline-block; }
