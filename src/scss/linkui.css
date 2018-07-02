@@ -338,6 +338,7 @@ button.avatar:hover, a.button.avatar:hover {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17); }
 
 .avatar .initials {
+  width: 100%;
   opacity: .85;
   display: block;
   text-transform: uppercase;
