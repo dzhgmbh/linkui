@@ -192,7 +192,7 @@ $dropdown-spacer:                .125rem;
 $dropdown-border-color:          transparent;
 $dropdown-item-padding-y:        .5rem;
 $dropdown-item-padding-x:        1.5rem;
-$dropdown-link-hover-bg:         $gray-100 ;
+$dropdown-link-hover-bg:         $gray-200 ;
 .dropdown-menu { box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);}
 
 //Custom Megadropdown
@@ -244,6 +244,9 @@ $input-border-color:  $gray-300;
 .form-control-inline {width: auto !important;}
 .custom-control-label {line-height: 1.5rem;}
 $input-padding-x: 1rem;
+
+
+$custom-range-track-height: 4px;
 
 /*browser fix style clear*/
 select {
@@ -307,10 +310,10 @@ $card-columns-gap:          1.25rem ;
 $card-columns-margin:       $card-spacer-y;
 
 //Accordion card
-#accordion .card-header a, #accordion .card-header h6 a:hover { color: $gray-800; transition:all ease .3s; -webkit-transition:all ease .3s; text-decoration: none}
-#accordion .card-header a.collapsed { color: $gray-600}
-#accordion .card {margin-bottom: .25rem}
-#accordion .card-header {padding: .5rem 2rem}
+.accordion .card-header a, #accordion .card-header h6 a:hover { color: $gray-800; transition:all ease .3s; -webkit-transition:all ease .3s; text-decoration: none; display: inline-block}
+.accordion .card-header a.collapsed { color: $gray-600}
+.accordion .card {margin-bottom: .25rem}
+.accordion .card-header {padding: .5rem 2rem}
 
 //carousel
 $carousel-control-prev-icon-bg:     (url("data:image/svg+xml,%3Csvg fill='%23FFFFFF' height='48' viewBox='0 0 24 24' width='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z'/%3E%3Cpath d='M0-.5h24v24H0z' fill='none'/%3E%3C/svg%3E"));
@@ -400,6 +403,10 @@ $carousel-control-icon-width:       54px;
   overflow: hidden;
   transition:all .3s ease;
   -webkit-transition:all .3s ease;
+}
+
+.avatar img {
+  width: 100%;
 }
 
 button.avatar, a.button.typo-avatar {

@@ -38,11 +38,12 @@
 
 .sidebar-menu .nav a.nav-link:hover, .sidebar-menu-lg .nav a.nav-link:hover {
   color: $gray-700;
-  background: $gray-100;
+  background: $gray-200;
 }
 
 .sidebar-menu .nav a.nav-link.active, .sidebar-menu-lg .nav a.nav-link.active {
   color: $gray-800;
+  background: $gray-100;
   border-color: $base-color;
   box-sizing: border-box;
 }

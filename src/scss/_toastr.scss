@@ -130,20 +130,20 @@ button.toast-close-button {
 
 }
 #toast-container > .toast-info {
-  background: url('#{$ico_path}/ic_info_white.svg') #00B0FF no-repeat;}
+  background: url('#{$ico_path}/ic_info_white.svg') #00B0FF no-repeat !important;}
 #toast-container > .toast-error {
-  background: url('#{$ico_path}/ic_warning_white.svg') #dc3545 no-repeat;
+  background: url('#{$ico_path}/ic_warning_white.svg') #dc3545 no-repeat !important;
 }
 #toast-container > .toast-success {
-  background: url('#{$ico_path}/ic_check_white.svg') #45a739 no-repeat;
+  background: url('#{$ico_path}/ic_check_white.svg') #45a739 no-repeat !important;
 }
 #toast-container > .toast-warning {
-  background: url('#{$ico_path}/ic_warning_white.svg') #f5b500 no-repeat;
+  background: url('#{$ico_path}/ic_warning_white.svg') #f5b500 no-repeat !important;
 }
 
 #toast-container > .toast-info, #toast-container > .toast-error, #toast-container > .toast-success, #toast-container > .toast-warning {
-  background-position: 13px center;
-  background-size: 28px;
+  background-position: 13px center !important;
+  background-size: 28px !important;
 }
 
 
