@@ -27,7 +27,7 @@ gulp.task('jquery', function() {
         .pipe(gulp.dest('dist/plugins/jquery'));
 });
 
-//Plugin flatpickr
+//Plugin popper
 gulp.task('popper', function() {
     return gulp.src([
             'node_modules/popper.js/dist/umd/popper.min.js',
