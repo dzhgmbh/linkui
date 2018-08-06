@@ -1,5 +1,10 @@
 //Accordion Card
 
+.accordion .card-header h5 a, #accordion .card-header h5 a:hover { color: $gray-800; transition:all ease .3s; -webkit-transition:all ease .3s; text-decoration: none; display: inline-block}
+.accordion .card-header h5 a.collapsed { color: $gray-600}
+.accordion .card {margin-bottom: .25rem}
+.accordion .card-header {padding: .5rem 2rem}
+
 .accordion .dropdown-toggle::after {
   float: right;
   margin-top: 7px;
@@ -35,8 +40,3 @@
   padding: .5rem 0;
   background: transparent;
 }
-
-.accordion .card-header h5 a, #accordion .card-header h5 a:hover { color: $gray-800; transition:all ease .3s; -webkit-transition:all ease .3s; text-decoration: none; display: inline-block}
-.accordion .card-header h5 a.collapsed { color: $gray-600}
-.accordion .card {margin-bottom: .25rem}
-.accordion .card-header {padding: .5rem 2rem}

@@ -7567,6 +7567,22 @@ input:checked + .sipper:before {
 .sipper.round:before {
   border-radius: 50%; }
 
+.accordion .card-header h5 a, #accordion .card-header h5 a:hover {
+  color: #343a40;
+  transition: all ease .3s;
+  -webkit-transition: all ease .3s;
+  text-decoration: none;
+  display: inline-block; }
+
+.accordion .card-header h5 a.collapsed {
+  color: #868e96; }
+
+.accordion .card {
+  margin-bottom: .25rem; }
+
+.accordion .card-header {
+  padding: .5rem 2rem; }
+
 .accordion .dropdown-toggle::after {
   float: right;
   margin-top: 7px;
@@ -7594,22 +7610,6 @@ input:checked + .sipper:before {
   cursor: pointer;
   padding: .5rem 0;
   background: transparent; }
-
-.accordion .card-header h5 a, #accordion .card-header h5 a:hover {
-  color: #343a40;
-  transition: all ease .3s;
-  -webkit-transition: all ease .3s;
-  text-decoration: none;
-  display: inline-block; }
-
-.accordion .card-header h5 a.collapsed {
-  color: #868e96; }
-
-.accordion .card {
-  margin-bottom: .25rem; }
-
-.accordion .card-header {
-  padding: .5rem 2rem; }
 
 /* Size*/
 /* Status opacity */
