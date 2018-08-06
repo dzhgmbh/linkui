@@ -1,0 +1,42 @@
+//Accordion Card
+
+.accordion .dropdown-toggle::after {
+  float: right;
+  margin-top: 7px;
+  opacity: .3;
+}
+
+.accordion .dropdown-toggle[aria-expanded='true']::after  {
+  opacity: 1;
+}
+
+
+.accordion-card .card {
+  margin-bottom: .25rem
+}
+
+.accordion-card .card-header {
+  cursor: pointer;
+  padding: .5rem 2rem
+}
+
+.accordion-card-light .card {
+  background: transparent;
+  border: none;
+}
+
+.accordion-card-light .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion-card-light .card-header {
+  cursor: pointer;
+  padding: .5rem 0;
+  background: transparent;
+}
+
+.accordion .card-header h5 a, #accordion .card-header h5 a:hover { color: $gray-800; transition:all ease .3s; -webkit-transition:all ease .3s; text-decoration: none; display: inline-block}
+.accordion .card-header h5 a.collapsed { color: $gray-600}
+.accordion .card {margin-bottom: .25rem}
+.accordion .card-header {padding: .5rem 2rem}

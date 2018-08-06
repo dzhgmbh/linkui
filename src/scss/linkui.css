@@ -213,22 +213,6 @@ select {
   font-size: 0.875rem !important;
   font-weight: normal; }
 
-.accordion .card-header a, #accordion .card-header h6 a:hover {
-  color: #343a40;
-  transition: all ease .3s;
-  -webkit-transition: all ease .3s;
-  text-decoration: none;
-  display: inline-block; }
-
-.accordion .card-header a.collapsed {
-  color: #868e96; }
-
-.accordion .card {
-  margin-bottom: .25rem; }
-
-.accordion .card-header {
-  padding: .5rem 2rem; }
-
 .carousel-caption a {
   color: #fff;
   text-decoration: underline; }
@@ -7582,6 +7566,50 @@ input:checked + .sipper:before {
 
 .sipper.round:before {
   border-radius: 50%; }
+
+.accordion .dropdown-toggle::after {
+  float: right;
+  margin-top: 7px;
+  opacity: .3; }
+
+.accordion .dropdown-toggle[aria-expanded='true']::after {
+  opacity: 1; }
+
+.accordion-card .card {
+  margin-bottom: 0.25rem; }
+
+.accordion-card .card-header {
+  cursor: pointer;
+  padding: 0.5rem 2rem; }
+
+.accordion-card-light .card {
+  background: transparent;
+  border: none; }
+
+.accordion-card-light .card-body {
+  padding-left: 0;
+  padding-right: 0; }
+
+.accordion-card-light .card-header {
+  cursor: pointer;
+  padding: .5rem 0;
+  background: transparent; }
+
+.accordion .card-header h5 a, #accordion .card-header h5 a:hover {
+  color: #343a40;
+  transition: all ease .3s;
+  -webkit-transition: all ease .3s;
+  text-decoration: none;
+  display: inline-block; }
+
+.accordion .card-header h5 a.collapsed {
+  color: #868e96; }
+
+.accordion .card {
+  margin-bottom: .25rem; }
+
+.accordion .card-header {
+  padding: .5rem 2rem; }
 
 /* Size*/
 /* Status opacity */

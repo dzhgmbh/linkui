@@ -310,12 +310,6 @@ $card-columns-count:        5;
 $card-columns-gap:          1.25rem ;
 $card-columns-margin:       $card-spacer-y;
 
-//Accordion card
-.accordion .card-header a, #accordion .card-header h6 a:hover { color: $gray-800; transition:all ease .3s; -webkit-transition:all ease .3s; text-decoration: none; display: inline-block}
-.accordion .card-header a.collapsed { color: $gray-600}
-.accordion .card {margin-bottom: .25rem}
-.accordion .card-header {padding: .5rem 2rem}
-
 //carousel
 $carousel-control-prev-icon-bg:     (url("data:image/svg+xml,%3Csvg fill='%23FFFFFF' height='48' viewBox='0 0 24 24' width='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z'/%3E%3Cpath d='M0-.5h24v24H0z' fill='none'/%3E%3C/svg%3E"));
 $carousel-control-next-icon-bg:     (url("data:image/svg+xml,%3Csvg fill='%23FFFFFF' height='48' viewBox='0 0 24 24' width='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E"));
