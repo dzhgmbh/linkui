@@ -1,0 +1,49 @@
+.chip {
+  padding: 0 .5rem;
+  height: 36px;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center !important;
+}
+
+.chip.chip-sm {
+  padding: 0 .25rem;
+  height: 28px;
+}
+
+.chip.bg-success, .chip.bg-warning, .chip.bg-info, .chip.bg-danger, .chip.bg-dark {
+  color: #fff;
+}
+
+.chip span {
+  padding: 0 .5rem;
+}
+
+.chip.chip span {
+  padding: 0 .25rem;
+}
+
+.chip img {
+  max-width: 24px;
+  max-height: 24px;
+  border-radius: 50%;
+}
+
+.chip.chip-sm img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.chip .chip-btn {
+  display: inherit;
+  transition: opacity .3s ease;
+  -webkit-transition: opacity .3s ease;
+}
+
+.chip .chip-btn:hover [class^="ic-"]{
+  opacity: 1;
+}
+
+.chip.chip-disable {
+  opacity: .5;
+}

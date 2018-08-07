@@ -7514,6 +7514,35 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+.chip {
+  padding: 0 .5rem;
+  height: 36px;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center !important; }
+
+.chip.chip-sm {
+  height: 24px; }
+
+.chip.bg-success, .chip.bg-warning, .chip.bg-info, .chip.bg-danger, .chip.bg-dark {
+  color: #fff; }
+
+.chip span {
+  padding: 0 .5rem; }
+
+.chip img {
+  max-width: 24px;
+  max-height: 24px;
+  border-radius: 50%; }
+
+.chip .chip-btn {
+  display: inherit;
+  transition: opacity .3s ease;
+  -webkit-transition: opacity .3s ease; }
+
+.chip .chip-btn:hover [class^="ic-"] {
+  opacity: 1; }
+
 .toogle-switch {
   position: relative;
   display: inline-block;
