@@ -44,7 +44,7 @@ a {cursor: pointer}
 $blue:    #007bff;
 $red:     #dc3545;
 $orange:  #fd7e14;
-$yellow:  #f5b500;
+$yellow:  #F5A400;
 $green:   #45a739;
 $cyan:    #00B0FF;
 
@@ -289,6 +289,38 @@ $modal-inner-padding:         16px 32px 32px 32px;
     min-height: calc(100vh - 20px);
   }
 }
+
+.modal-content {
+  border: none !important;
+}
+
+
+.modal-alert-danger .modal-header,
+.modal-alert-success .modal-header,
+.modal-alert-info .modal-header,
+.modal-alert-warning .modal-header {
+  padding: 20px 32px 20px 32px;
+  color:#fff;
+}
+
+.modal-alert-danger .modal-title,
+.modal-alert-success .modal-title,
+.modal-alert-info .modal-title,
+.modal-alert-warning .modal-title {
+  color:#fff;
+}
+
+.modal-alert-danger .modal-body,
+.modal-alert-success .modal-body,
+.modal-alert-info .modal-body,
+.modal-alert-warning .modal-body {
+  padding: 32px 32px 32px 32px;
+}
+
+.modal-alert-danger .modal-header {background: $red;}
+.modal-alert-success .modal-header {background: $green}
+.modal-alert-info .modal-header {background: $cyan}
+.modal-alert-warning .modal-header {background: $yellow}
 
 //list group
 $list-group-border-color: $gray-200;
