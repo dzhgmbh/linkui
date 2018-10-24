@@ -1,0 +1,26 @@
+//custom checkbox
+
+.custom-control-label::before {
+  background-color: transparent;
+  border:2px solid rgba(134,142,150,1);
+}
+
+.custom-control-input:disabled ~ .custom-control-label::before {
+  background-color: transparent;
+  border:2px solid rgba(134,142,150,.4);
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before,
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: $base-color;
+}
+
+.custom-control-input.is-invalid ~ .custom-control-label::before, .was-validated .custom-control-input:invalid ~ .custom-control-label::before {
+  background-color: transparent;
+  border-color: #efa2a9;
+}
+
+.custom-control-input.is-valid ~ .custom-control-label::before, .was-validated .custom-control-input:valid ~ .custom-control-label::before {
+  background-color: transparent;
+  border-color: #5cc350;
+}

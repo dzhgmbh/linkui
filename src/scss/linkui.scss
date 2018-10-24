@@ -35,7 +35,6 @@
 @import "../../node_modules/bootstrap/scss/carousel";
 @import "../../node_modules/bootstrap/scss/utilities";
 @import "_sidebar.scss";
-//@import "_notificationbar";
 @import "_navbar";
 @import "_treenav";
 @import "_tabs";
@@ -46,4 +45,5 @@
 @import "_icons";
 @import "_flatpickr-theme"; //only use the flatpickr plugin
 @import "_toastr";
+@import "_checkboxes";
 
