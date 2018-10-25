@@ -1,0 +1,63 @@
+.list-group-flush {
+  li, a {
+    background: transparent;
+    color: $gray-600;
+    transition:color .3s ease;
+    -webkit-transition:color .3s ease;
+  }
+
+  a:hover {
+    color: $gray-800;
+  }
+
+  a.active:hover {
+    color: $gray-800;
+  }
+
+  .list-group-item {
+    padding: .5rem 0;
+
+    .disabled, :disabled {
+      background: transparent;
+    }
+  }
+
+  .list-group-item.active {
+    background: transparent;
+    color: $gray-800;
+    border-color: #e9ecef;
+    border-top: transparent;
+
+    a {
+      color: $gray-800;
+    }
+  }
+}
+
+.flush-nav {
+   a, button {
+    color: $gray-600;
+    transition:color .3s ease;
+    -webkit-transition:color .3s ease;
+  }
+
+  a:hover, button:hover {
+    color: $gray-800;
+  }
+
+  a.active, button.active {
+    color: $gray-800;
+  }
+
+  a.disabled, a.disabled:hover {
+    color: $gray-500;
+    cursor: default;
+  }
+}
+
+.breadcrumb {
+  li.breadcrumb-item a {
+    color: #495057;
+  }
+}
+
