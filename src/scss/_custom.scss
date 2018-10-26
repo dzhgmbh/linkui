@@ -245,9 +245,12 @@ $input-border-color:  $gray-300;
 .form-control-inline {width: auto !important;}
 .custom-control-label {line-height: 1.5rem;}
 $input-padding-x: 1rem;
-
+$input-padding-x-sm: 1rem;
+$input-padding-x-lg: 1rem;
+$custom-select-padding-x: 1rem;
 
 $custom-range-track-height: .25rem;
+
 
 /*browser fix style clear*/
 select {
