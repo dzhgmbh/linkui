@@ -199,6 +199,9 @@ $ico_disabled: .3;
 .ic-star-border-b    {background-image:url("#{$ico_path}/ic_star_border_black.svg") !important;}
 .ic-star-border-w    {background-image:url("#{$ico_path}/ic_star_border_white.svg") !important;}
 
+.ic-key-b    {background-image:url("#{$ico_path}/ic_key_black.svg") !important;}
+.ic-key-w    {background-image:url("#{$ico_path}/ic_key_white.svg") !important;}
+
 
 .ic-sm, .ic-md, .ic-lg { display: inline-block;}
 .ic-sm { width: $ico_size_sm; height: $ico_size_sm;}
