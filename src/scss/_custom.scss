@@ -481,3 +481,31 @@ button.avatar:hover, a.button.avatar:hover {
 $breadcrumb-bg: transparent;
 $breadcrumb-padding-x: 0;
 $breadcrumb-divider: quote(">") !default;
+
+// Popovers
+
+$popover-font-size:                 .85rem;
+$popover-bg:                        #fff;
+$popover-max-width:                 350px;
+$popover-border-color:              #fff;
+$popover-header-color:              #444;
+
+$popover-header-bg:                 #fff;
+$popover-header-padding-y:          1rem;
+$popover-header-padding-x:          1rem;
+
+$popover-body-padding-y:            1rem;
+$popover-body-padding-x:            1rem;
+
+$popover-arrow-width:               1rem;
+$popover-arrow-height:              .5rem;
+$popover-arrow-color:               #fff;
+.popover {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.popover-custom {
+  .media img {
+    max-width: 55px;
+  }
+}
