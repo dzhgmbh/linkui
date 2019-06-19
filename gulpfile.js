@@ -56,14 +56,6 @@ gulp.task('toastr', function() {
         .pipe(gulp.dest('dist/plugins/toastr'));
 });
 
-//Plugin toastr
-gulp.task('stepy', function() {
-    return gulp.src([
-        'node_modules/stepy/lib/jquery.stepy.js',
-    ])
-        .pipe(gulp.dest('dist/plugins/stepy'));
-});
-
 //icon export
 gulp.task('icons', function() {
     return gulp.src('src/icons/*')
@@ -82,5 +74,5 @@ gulp.task('css', function() {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', ['css', 'js', 'icons', 'flatpickr', 'toastr', 'jquery', 'popper', 'stepy']);
+gulp.task('build', ['css', 'js', 'icons', 'flatpickr', 'toastr', 'jquery', 'popper']);
 gulp.task('default', ['build', 'js', 'watch']);
