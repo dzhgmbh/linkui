@@ -12,7 +12,8 @@ gulp.task('watch', function() {
 gulp.task('js', function() {
     return gulp.src([
         'node_modules/bootstrap/dist/js/bootstrap.js',
-        'src/js/**/*.js'
+        'src/js/**/*.js',
+        'dist/plugins/stepy/*.js' //include custom stepy plugin
     ])
         .pipe(concat('linkui.min.js'))
         .pipe(uglify())
