@@ -34,13 +34,19 @@
 @import "~bootstrap/scss/popover";
 @import "~bootstrap/scss/carousel";
 @import "~bootstrap/scss/utilities";
-@import "_sidebar.scss";
-//@import "_notificationbar";
+@import "_jquery-stepy";
+
+@import "_sidebar";
 @import "_navbar";
+@import "_treenav";
 @import "_tabs";
 @import "_loader";
+@import "_chips";
 @import "_toogle-switch";
-@import "_range-slider";
+@import "_accordion";
 @import "_icons";
+@import "_flatpickr-theme"; //only use the flatpickr plugin
 @import "_toastr";
+@import "_checkboxes";
+@import "_menus";
 

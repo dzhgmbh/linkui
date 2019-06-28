@@ -1,0 +1,91 @@
+.tree,
+.tree ul {
+  margin:0 0 0 1rem;
+  padding:0;
+  list-style:none;
+  color: $gray-300;
+  position:relative;
+}
+
+.tree ul.tree-level {
+  margin-left:.25rem;
+  margin-bottom: .5rem;
+  display: none;
+}
+
+.tree ul.toggle {
+  display: block;
+  width: 100%;
+}
+
+.tree:before,
+.tree ul:before {
+  content:"";
+  display:block;
+  width:0;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  border-left:1px solid;
+}
+
+.tree .tree-trigger {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.tree .tree-trigger::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: .3rem solid transparent;
+  border-right: .3rem solid transparent;
+  border-bottom: .3rem solid #495057;
+  display: inline-block;
+  margin-right: .5em;
+}
+
+.tree .tree-trigger.active::before {
+  border-top: .3rem solid #495057;
+  border-bottom: none;
+}
+
+.tree .tree-trigger .badge {
+  margin-left: .5rem;
+}
+
+.tree li {
+  margin:0;
+  padding:0 1rem;
+  line-height:1.8rem;
+  position:relative;
+  color:$body-color;
+}
+
+.tree li i {
+  margin-top: -5px;
+  position: relative;
+  top: 5px;
+  margin-right: .25rem;
+}
+
+.tree li:before {
+  content:"";
+  display:block;
+  width:10px;
+  height:0;
+  border-top:1px solid $gray-300;
+  margin-top:-1px;
+  position:absolute;
+  top:1rem;
+  left:0;
+}
+
+.tree li:last-child:before {
+  background:$gray-100;
+  height:auto;
+  top:1em;
+  bottom:0;
+}
