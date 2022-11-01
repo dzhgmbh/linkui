@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "@canvsion",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
